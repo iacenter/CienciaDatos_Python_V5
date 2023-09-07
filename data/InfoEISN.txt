@@ -1,0 +1,58 @@
+The estimated international sunspot number (EISN) is a daily value obtained by a simple average over available sunspot counts from prompt stations in the SILSO network.
+The raw values from each station are scaled using their mean annual k personal coefficient over the last elapsed year. Therefore, compared to the monthly international sunspot number (produced on the first day of each month), the accuracy of the EISN is lower because the calculation rests on a smaller number of stations and the k scaling coefficient is only an approximation of the true k coefficient of the month.
+The EISN is computed every few minutes and thus evolves continuously as new observations from our worldwide network are entered into our database. 
+The EISN thus gives a dynamical preview of the final sunspot number but is an ephemeral product. It should not be archived for long-term use. At the end of each month, those values are dropped and replaced by the provisional sunspot numbers from the full calculation for the corresponding month. 
+-------------------------------------------------------------------------------
+TXT 
+-------------------------------------------------------------------------------
+Filename: EISN_current.txt
+Format: plain ASCII text
+
+Contents:
+Column 1: Gregorian Year 
+Column 2: Gregorian Month
+Column 3: Gregorian Day
+Column 4: Decimal date
+Column 5: Estimated Sunspot Number
+Column 6: Estimated Standard Deviation
+Column 7: Number of Stations calculated
+Column 8: Number of Stations available
+
+Line format [character position]:
+ - [1-4]   Year
+ - [6-8]   Month
+ - [9-10]   Day
+ - [12-19] Decimal date
+ - [21-23] Estimated Sunspot Number
+ - [25-29] Estimated Standard Deviation
+ - [31-33] Number of Stations calculated
+ - [35-37] Number of Stations available 
+-------------------------------------------------------------------------------
+CSV
+-------------------------------------------------------------------------------
+Filename: EISN_current.csv
+Format: Comma Separated values (adapted for import e.g. in MS Excel)
+
+Contents:
+Column 1: Gregorian Year 
+Column 2: Gregorian Month
+Column 3: Gregorian Day
+Column 4: Decimal date
+Column 5: Estimated Sunspot Number
+Column 6: Estimated Standard Deviation
+Column 7: Number of Stations calculated
+Column 8: Number of Stations available
+-------------------------------------------------------------------------------
+LICENSE
+-------------------------------------------------------------------------------
+SILSO data is under CC BY-NC4.0 license (https://goo.gl/PXrLYd) which means you can :
+
+Share - copy and redistribute the material in any medium or format
+Adapt - remix, transform, and build upon the material
+
+As long as you follow the license terms:
+
+Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial - You may not use the material for commercial purposes.
+No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
